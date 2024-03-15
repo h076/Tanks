@@ -41,9 +41,9 @@ int doProgram(int argc, char *argv[])
 	//StarfieldDemo oMainDemoObject;
 	//ImageMappingDemo oMainDemoObject;
 	//ZoomingDemo oMainDemoObject;
-	DraggingDemo oMainDemoObject;
+	//DraggingDemo oMainDemoObject;
 
-	//TestEngine oMainDemoObject;
+	Psyhw5Engine oMainDemoObject;
 
 	char buf[1024];
 	// Screen caption can be set on following line...

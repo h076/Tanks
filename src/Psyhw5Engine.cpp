@@ -95,8 +95,8 @@ void Psyhw5Engine::endGame() {
     setGameState(END);
     // calls clean up
     // deinitialise gives malloc error
-    //deinitialise();
-    virtCleanUp();
+    deinitialise();
+    //virtCleanUp();
 }
 
 void Psyhw5Engine::virtCleanUp() {
