@@ -1,0 +1,3 @@
+/Users/harry/Documents/cpp/comp2006/cppCoursework/build/CMakeFiles/SDL2_App.dir
+/Users/harry/Documents/cpp/comp2006/cppCoursework/build/CMakeFiles/edit_cache.dir
+/Users/harry/Documents/cpp/comp2006/cppCoursework/build/CMakeFiles/rebuild_cache.dir

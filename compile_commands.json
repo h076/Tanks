@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/mainfunction.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/mainfunction.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/mainfunction.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/BaseEngine.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/BaseEngine.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/BaseEngine.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/BouncingBall.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/BouncingBall.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/BouncingBall.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/BouncingBallMain.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/BouncingBallMain.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/BouncingBallMain.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/DisplayableObject.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/DisplayableObject.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/DisplayableObject.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/DraggingDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/DraggingDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/DraggingDemo.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/DrawingSurface.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/DrawingSurface.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/DrawingSurface.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/FlashingDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/FlashingDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/FlashingDemo.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/FontManager.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/FontManager.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/FontManager.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/ImageMappingDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/ImageMappingDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/ImageMappingDemo.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/MazeDemoMain.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoMain.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoMain.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/MazeDemoObject.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoObject.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoObject.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/MazeDemoTileManager.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoTileManager.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/MazeDemoTileManager.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/SimpleDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/SimpleDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/SimpleDemo.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/SimpleImage.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/SimpleImage.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/SimpleImage.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/StarfieldDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/StarfieldDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/StarfieldDemo.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/TileManager.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/TileManager.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/TileManager.cpp"
+},
+{
+  "directory": "/Users/harry/Documents/cpp/comp2006/cppCoursework/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_ttf.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1   -std=c++11 -F/Library/Frameworks  -std=c++11 -o CMakeFiles/SDL2_App.dir/src/ZoomingDemo.cpp.o -c /Users/harry/Documents/cpp/comp2006/cppCoursework/src/ZoomingDemo.cpp",
+  "file": "/Users/harry/Documents/cpp/comp2006/cppCoursework/src/ZoomingDemo.cpp"
+}
+]
