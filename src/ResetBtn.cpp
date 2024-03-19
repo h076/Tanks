@@ -13,6 +13,6 @@ void ResetBtn::virtDraw() {
 }
 
 void ResetBtn::pressed() {
-    getEngine()->virtSetupBackgroundBuffer();
+    getEngine()->lockAndSetupBackground();
     //getTileManager()->newTileLayout(getEngine(), getEngine()->getBackgroundSurface(), 6);
 }

@@ -100,6 +100,7 @@ void Psyhw5Engine::endGame() {
 }
 
 void Psyhw5Engine::virtCleanUp() {
+    lockBackgroundForDrawing();
     // alert that all displayable objects are to be deleted
     drawableObjectsChanged();
     // delete all objects
@@ -109,4 +110,5 @@ void Psyhw5Engine::virtCleanUp() {
     drawBackgroundString(getBackgroundSurface()->getSurfaceWidth()/2,
                          getBackgroundSurface()->getSurfaceHeight()/2,
                          "Game Over ...", 0xffffff);
+    unlockBackgroundForDrawing();
 }
