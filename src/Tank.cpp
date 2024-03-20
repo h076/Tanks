@@ -22,6 +22,8 @@ void Tank::virtDraw() {
 */
 
 void Tank::virtDoUpdate(int iCurrentTime) {
+
+    // check for all arow key presses
     if(getEngine()->isKeyPressed(SDLK_UP))
         m_iCurrentScreenY -= 2;
     if(getEngine()->isKeyPressed(SDLK_DOWN))
@@ -31,7 +33,7 @@ void Tank::virtDoUpdate(int iCurrentTime) {
     if(getEngine()->isKeyPressed(SDLK_RIGHT))
         m_iCurrentScreenX += 2;
 
-    // prevent object from moving off screen using bounds
+    // prevent object from moving out of play area using bounds
     if(m_iCurrentScreenX < 0)
         m_iCurrentScreenX = 0;
     if(m_iCurrentScreenX >= getEngine()->getWindowWidth() - m_iDrawWidth)

@@ -43,7 +43,7 @@ public:
 	void deinitialise(void);
 
 	/* The main game loop - will call the draw and gamel logic functions in turn. See .cpp file. */
-	int mainLoop(void);
+	int maiLoop(void);
 
 	// Handle an SDL event.  See .cpp file. 
 	bool handleEvent(SDL_Event* pEvent);

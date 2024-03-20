@@ -19,7 +19,7 @@ void Button::virtDraw() {
 }
 
 void Button::virtMouseDown(int iButton, int iX, int iY) {
-    std::cout << "mouse down at " << iX << "," << iY << "\n";
+    //std::cout << "mouse down at " << iX << "," << iY << "\n";
     if(iX >= m_iCurrentScreenX && iX <= m_iCurrentScreenX+m_iDrawWidth)
         if(iY >= m_iCurrentScreenY && iY <= m_iCurrentScreenY+m_iDrawHeight)
             this->pressed();

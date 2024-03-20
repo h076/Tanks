@@ -37,8 +37,6 @@ class Psyhw5Engine :
         // implement proper clean up of all objects
         virtual void virtCleanUp(void) override;
 
-        void handleTank(Tank pTank);
-
         // get and set game state
         const gameState getGameState() {return eGameState;}
         const void setGameState(gameState s) {eGameState = s;}

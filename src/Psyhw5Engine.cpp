@@ -18,10 +18,8 @@ void Psyhw5Engine::virtSetupBackgroundBuffer() {
                         getBackgroundSurface()->getSurfaceHeight());
 
     // draw border consisting of blocks 50x50 pixels
-    drawBackgroundRectangle(0, 0, 50, 50,0x00ff00);
     for(int x=0; x<getBackgroundSurface()->getSurfaceWidth(); x+=50) {
         for(int y=0; y<getBackgroundSurface()->getSurfaceHeight(); y+=50) {
-            //drawBackgroundRectangle(x, y,x+50, y+50, 0x00ff00);
             if(x==0 || x==(getBackgroundSurface()->getSurfaceWidth()-50)) {
                 drawBackgroundRectangle(x, y, x+50, y+50, 0x000000);
                 drawBackgroundRectangle(x+2, y+2, x+48, y+48, 0x00ff01);
@@ -38,6 +36,7 @@ void Psyhw5Engine::virtSetupBackgroundBuffer() {
 }
 
 void Psyhw5Engine::virtDrawStringsUnderneath() {
+    // no need to lock back ground as it is locked by calling function
     if(getGameState() == PLAYING) {
         drawBackgroundString(getBackgroundSurface()->getSurfaceWidth()/2,
                              getBackgroundSurface()->getSurfaceHeight()/2 + 100,
@@ -46,7 +45,9 @@ void Psyhw5Engine::virtDrawStringsUnderneath() {
 }
 
 void Psyhw5Engine::virtDrawStringsOnTop() {
+    // no need to lock foreground as it is locked by calling function
     if(getGameState() == PLAYING) {
+        // get active tile counter value
         int tilesPressed = tm.getTilesActive();
         char buf[128];
         snprintf(buf, 128, "Tiles pressed : %d", tilesPressed);
@@ -82,10 +83,17 @@ int Psyhw5Engine::virtInitialiseObjects()
 void Psyhw5Engine::virtMainLoopPostUpdate() {
     if(getGameState() == PLAYING) {
         Tank * pPlayerTank = (Tank *) getDisplayableObject(0);
+
+        // check if player tank instance has moved over inactive tile
         tm.checkMove(this, getBackgroundSurface(), pPlayerTank);
+
         Tank * pAutoTank = (Tank *) getDisplayableObject(1);
+
+        // check for collision between auto and player tank
         bool collision = collisions.checkCircles(pPlayerTank->getXCentre(), pPlayerTank->getYCentre(),
                                                  pAutoTank->getXCentre(), pAutoTank->getYCentre(), 100);
+
+        // if collision then end game
         if(collision)
             endGame();
     }
@@ -94,8 +102,7 @@ void Psyhw5Engine::virtMainLoopPostUpdate() {
 void Psyhw5Engine::endGame() {
     setGameState(END);
     // calls clean up
-    // deinitialise gives malloc error
-    //deinitialise();
+
     virtCleanUp();
 }
 
@@ -106,9 +113,12 @@ void Psyhw5Engine::virtCleanUp() {
     // delete all objects
     destroyOldObjects(true);
 
+    // change background to black and draw string
     fillBackground(0x000000);
     drawBackgroundString(getBackgroundSurface()->getSurfaceWidth()/2,
                          getBackgroundSurface()->getSurfaceHeight()/2,
                          "Game Over ...", 0xffffff);
+
+    // unlock background
     unlockBackgroundForDrawing();
 }

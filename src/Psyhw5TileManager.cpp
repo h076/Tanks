@@ -52,7 +52,7 @@ void Psyhw5TileManager::newTileLayout(BaseEngine* pEngine, DrawingSurface* pSurf
 
     while(iVisibleTileCount != iVisibleTiles) {
         for(int i=0; i < (m_iMapHeight*m_iMapWidth); i++) {
-            // 1 percent chance that
+            // 0.25 percent chance that a tile is set to visible
             if((rand() % 250) <= 1
                && iVisibleTileCount < iVisibleTiles && *(p+i) == 0) {
                 *(p+i) = 1;
@@ -78,10 +78,12 @@ bool Psyhw5TileManager::activateTile(BaseEngine* pEngine, DrawingSurface* pSurfa
     if(isValidTilePosition(iScreenX, iScreenY)) {
         if(getMapValue(getMapXForScreenX(iScreenX),
                        getMapYForScreenY(iScreenY)) == 1) {
-
+            // if tile is valid and a visible inactive tile
+            // then set map value too 2 and redraw
             setAndRedrawMapValueAt(getMapXForScreenX(iScreenX),
                                    getMapYForScreenY(iScreenY),
                                    2, pEngine, pSurface);
+            // increment number of active tiles to change visible counter
             iTilesActive++;
             return true;
         }

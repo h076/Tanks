@@ -21,15 +21,15 @@ class AutoTank :
 
         void updateAxis();
 
-        void flipAxisX() {m_iAxisX = m_iAxisX*(-1);};
-        void flipAxisY() {m_iAxisY = m_iAxisY*(-1);};
+        void flipAxisX() const {m_iAxisX = m_iAxisX*(-1);};
+        void flipAxisY() const {m_iAxisY = m_iAxisY*(-1);};
 
         int getNewX() const {return m_iCurrentScreenX + m_iAxisX;};
         int getNewY() const {return m_iCurrentScreenY + m_iAxisY;};
 
     private:
-        int m_iAxisX;
-        int m_iAxisY;
+        static int m_iAxisX;
+        static int m_iAxisY;
 
 };
 
