@@ -2,6 +2,7 @@
 #define MAPTILEMANAGER_H
 #include "Psyhw5TileManager.h"
 #include "MapGeneration.h"
+#include "UtilMapTiles.h"
 #pragma once
 
 class MapTileManager
@@ -12,6 +13,11 @@ class MapTileManager
         MapTileManager()
             : Psyhw5TileManager(50, 50, 26, 16)
             , mg(26, 16)
+        {
+
+        }
+
+        ~MapTileManager()
         {
 
         }
@@ -29,6 +35,7 @@ class MapTileManager
 
     private:
         MapGeneration mg;
+        MapTiles mt;
 };
 
 #endif /* MAPTILEMANAGER_H */
