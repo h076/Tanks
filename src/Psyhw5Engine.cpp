@@ -18,6 +18,7 @@ void Psyhw5Engine::virtSetupBackgroundBuffer() {
                         getBackgroundSurface()->getSurfaceHeight());
 
     // draw border consisting of blocks 50x50 pixels
+    /*
     drawBackgroundRectangle(0, 0, 50, 50,0x00ff00);
     for(int x=0; x<getBackgroundSurface()->getSurfaceWidth(); x+=50) {
         for(int y=0; y<getBackgroundSurface()->getSurfaceHeight(); y+=50) {
@@ -31,10 +32,12 @@ void Psyhw5Engine::virtSetupBackgroundBuffer() {
             }
         }
     }
+    */
 
     // set up tiles
-    tm.setTopLeftPositionOnScreen(50, 50);
-    tm.newTileLayout(this, getBackgroundSurface(), 6);
+    tm.setTopLeftPositionOnScreen(0, 0);
+    tm.loadMap(this, getBackgroundSurface());
+    //tm.newTileLayout(this, getBackgroundSurface(), 6);
 }
 
 void Psyhw5Engine::virtDrawStringsUnderneath() {

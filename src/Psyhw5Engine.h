@@ -1,6 +1,6 @@
 #pragma once
 #include "BaseEngine.h"
-#include "Psyhw5TileManager.h"
+#include "MapTileManager.h"
 
 #ifndef PSYHW5ENGINE_H
 #define PSYHW5ENGINE_H
@@ -47,7 +47,7 @@ class Psyhw5Engine :
         void endGame();
 
     protected:
-        Psyhw5TileManager tm;
+        MapTileManager tm;
         static CollisionDetection collisions;
 
     private:

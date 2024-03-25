@@ -15,14 +15,14 @@ class MapTiles
         }
 
         void loadWalls() {
-            wallImgs[0] = ImageManager::loadImage(path+"wall0.png", false);
-            wallImgs[1] = ImageManager::loadImage(path+"wall1.png", false);
-            wallImgs[2] = ImageManager::loadImage(path+"wall2.png", false);
-            wallImgs[3] = ImageManager::loadImage(path+"wall3.png", false);
-            wallImgs[4] = ImageManager::loadImage(path+"wall4.png", false);
-            wallImgs[5] = ImageManager::loadImage(path+"wall5.png", false);
-            wallImgs[6] = ImageManager::loadImage(path+"wall6.png", false);
-            wallImgs[7] = ImageManager::loadImage(path+"wall7.png", false);
+            wallImgs[0] = ImageManager::loadImage("wall0.png", false);
+            wallImgs[1] = ImageManager::loadImage("wall1.png", false);
+            wallImgs[2] = ImageManager::loadImage("wall2.png", false);
+            wallImgs[3] = ImageManager::loadImage("wall3.png", false);
+            wallImgs[4] = ImageManager::loadImage("wall4.png", false);
+            wallImgs[5] = ImageManager::loadImage("wall5.png", false);
+            wallImgs[6] = ImageManager::loadImage("wall6.png", false);
+            wallImgs[7] = ImageManager::loadImage("wall7.png", false);
         }
 
         SimpleImage getRandomWall() const {

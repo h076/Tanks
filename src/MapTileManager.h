@@ -32,6 +32,7 @@ class MapTileManager
     public:
         // want to load map from mg class
         // using memcpy to copy all map values over
+        void loadMap(BaseEngine* pEngine, DrawingSurface* pSurface);
 
     private:
         MapGeneration mg;
