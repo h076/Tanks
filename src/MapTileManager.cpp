@@ -16,15 +16,46 @@ void MapTileManager::virtDrawTileAt(BaseEngine *pEngine, DrawingSurface *pSurfac
         /*wall.renderImage(pSurface, 0, 0,
                          iStartPositionScreenX, iStartPositionScreenY,
                          wall.getWidth(), wall.getHeight());
-        */
+
         pSurface->drawRectangle(iStartPositionScreenX - 2,
                                 iStartPositionScreenY - 2,
                                 iStartPositionScreenX + getTileWidth() + 1,
                                 iStartPositionScreenY + getTileHeight() + 1,
                                 0x00ff00);
+                                */
         wall.renderImage(pSurface, 0, 0,
                          iStartPositionScreenX, iStartPositionScreenY,
                          wall.getWidth(), wall.getHeight());
+
+        // create border around wall facing open space
+        if(getMapValue(iMapX, iMapY-1)==0) {
+            pSurface->drawRectangle(iStartPositionScreenX,
+                                    iStartPositionScreenY,
+                                    iStartPositionScreenX + getTileWidth(),
+                                    iStartPositionScreenY + 2,
+                                    0x964B00);
+        }
+        if(getMapValue(iMapX, iMapY+1) == 0) {
+            pSurface->drawRectangle(iStartPositionScreenX,
+                                    iStartPositionScreenY + getTileHeight() - 2,
+                                    iStartPositionScreenX + getTileWidth(),
+                                    iStartPositionScreenY + getTileHeight(),
+                                    0x964B00);
+        }
+        if(getMapValue(iMapX-1, iMapY) == 0) {
+            pSurface->drawRectangle(iStartPositionScreenX,
+                                    iStartPositionScreenY,
+                                    iStartPositionScreenX + 2,
+                                    iStartPositionScreenY + getTileHeight(),
+                                    0x964B00);
+        }
+        if(getMapValue(iMapX+1, iMapY) == 0) {
+            pSurface->drawRectangle(iStartPositionScreenX + getTileWidth() - 2,
+                                    iStartPositionScreenY,
+                                    iStartPositionScreenX + getTileWidth(),
+                                    iStartPositionScreenY + getTileHeight(),
+                                    0x964B00);
+        }
     }
 }
 
